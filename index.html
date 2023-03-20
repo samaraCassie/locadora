@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenda de Carros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/">
+        <div class="model">
+            <p>Modelo: </p>
+            <input type="text" name="model" id="model">
+        </div>
+        <div class="price">
+            <p>Preço: </p>
+            <input type="text" name="price" id="price">
+        </div>
+        <button type="submit" id="btnCad">Cadastrar</button>
+    </form>
+    <button type="button" id="listarCadastros">Listar Cadastros</button>
+    <div>
+        <table id="result"></table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
